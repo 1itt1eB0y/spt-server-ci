@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - '.github/workflows/build-nightly-cron.yaml'
+  workflow_dispatch: # 允许手动点击启动
 
 env:
   SERVER_URL: https://github.com
